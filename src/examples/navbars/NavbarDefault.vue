@@ -950,6 +950,6 @@ watch(
 
 <style>
 .navbar-brand {
-  height: 2.5rem;
+  height: 2.1rem;
 }
 </style>

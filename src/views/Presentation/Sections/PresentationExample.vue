@@ -31,19 +31,48 @@ defineProps({
       },
     },
   },
-  col1: {
-    type: String,
-    default: "col-lg-3",
-  },
-  col2: {
-    type: String,
-    default: "col-lg-9",
-  },
+  // col1: {
+  //   type: String,
+  //   default: "col-lg-3",
+  // },
+  // col2: {
+  //   type: String,
+  //   default: "col-lg-9",
+  // },
 });
 </script>
 <script>
+const imagesPrefix =
+  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+
 export default {
   inheritAttrs: false,
+  data() {
+    return {
+      data: [
+        {
+          heading: "前端知识",
+          description: "一些前端知识",
+          items: [
+            {
+              image: `${imagesPrefix}/headers.jpg`,
+              title: "Page Headers",
+              subtitle: "10 Examples",
+              route: "page-headers",
+              pro: false,
+            },
+            {
+              image: `${imagesPrefix}/headers.jpg`,
+              title: "Features",
+              subtitle: "14 Examples",
+              route: "page-features",
+              pro: false,
+            },
+          ],
+        },
+      ],
+    };
+  },
 };
 </script>
 <template>
@@ -67,7 +96,7 @@ export default {
     </div>
     <div class="container mt-sm-5 mt-3">
       <div
-        v-for="({ heading, description, items }, index) in data"
+        v-for="({ heading, description, items }, index) in this.data"
         :class="`row ${index != 0 && index != -1 ? 'pt-lg-6' : ''}`"
         :key="heading"
       >

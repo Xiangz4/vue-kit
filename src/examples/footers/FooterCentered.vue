@@ -1,4 +1,5 @@
 <script setup>
+import score from "../score.vue";
 defineProps({
   socials: {
     type: Array,
@@ -45,6 +46,7 @@ defineProps({
   },
 });
 </script>
+
 <template>
   <footer class="footer py-5">
     <div class="container">

@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Vue Material Kit 2 - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vue-material-kit-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
@@ -33,7 +18,7 @@ export default [
   {
     heading: "前端知识",
     description:
-      "A selection of 45 page sections that fit perfectly in any combination",
+      "一些前端知识",
     items: [
       {
         image: `${imagesPrefix}/headers.jpg`,
@@ -48,96 +33,12 @@ export default [
         subtitle: "14 Examples",
         route: "page-features",
         pro: false,
-      },
-      // {
-      //   image: imgPricing,
-      //   title: "Pricing",
-      //   subtitle: "8 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/faq.jpg`,
-      //   title: "FAQ",
-      //   subtitle: "1 Example",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: imgBlogPosts,
-      //   title: "Blog Posts",
-      //   subtitle: "11 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: imgTestimonials,
-      //   title: "Testimonials",
-      //   subtitle: "11 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: imgTeam,
-      //   title: "Teams",
-      //   subtitle: "6 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: imgStat,
-      //   title: "Stats",
-      //   subtitle: "3 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/call-to-action.jpg`,
-      //   title: "Call to Actions",
-      //   subtitle: "8 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/projects.jpg`,
-      //   title: "Applications",
-      //   subtitle: "6 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/logo-area.jpg`,
-      //   title: "Logo Areas",
-      //   subtitle: "4 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/footers.jpg`,
-      //   title: "Footers",
-      //   subtitle: "10 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/general-cards.jpg`,
-      //   title: "General Cards",
-      //   subtitle: "9 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: imgContent,
-      //   title: "Content Sections",
-      //   subtitle: "8 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // }
+      }
     ],
   },
   {
     heading: "后端知识",
-    description: "30+ components that will help go through the pages",
+    description: "一些后端知识",
     items: [
       {
         image: `${imagesPrefix}/navbars.jpg`,
@@ -163,24 +64,10 @@ export default [
     ],
   },
   {
-    heading: "Input Areas",
+    heading: "商品信息",
     description:
-      "50+ elements that you need for text manipulation and insertion",
+      "一些书籍以及其他的商品",
     items: [
-      // {
-      //   image: `${imagesPrefix}/newsletters.jpg`,
-      //   title: "Newsletters",
-      //   subtitle: "6 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
-      // {
-      //   image: `${imagesPrefix}/contact-sections.jpg`,
-      //   title: "Contact Sections",
-      //   subtitle: "8 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
       {
         image: `${imagesPrefix}/forms.jpg`,
         title: "Forms",
@@ -209,13 +96,6 @@ export default [
         route: "ac-alerts",
         pro: false,
       },
-      // {
-      //   image: `${imagesPrefix}/toasts.jpg`,
-      //   title: "Notifications",
-      //   subtitle: "3 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
       {
         image: imgPopover,
         title: "Tooltips & Popovers",
@@ -265,13 +145,6 @@ export default [
         route: "el-toggles",
         pro: false,
       },
-      // {
-      //   image: `${imagesPrefix}/social-buttons.jpg`,
-      //   title: "Social Buttons",
-      //   subtitle: "2 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
       {
         image: `${imagesPrefix}/breadcrumbs.jpg`,
         title: "Breadcrumbs",
@@ -293,13 +166,6 @@ export default [
         route: "el-progress-bars",
         pro: false,
       },
-      // {
-      //   image: `${imagesPrefix}/tables.jpg`,
-      //   title: "Tables",
-      //   subtitle: "3 Examples",
-      //   route: "presentation",
-      //   pro: true
-      // },
       {
         image: `${imagesPrefix}/typography.jpg`,
         title: "Typography",
@@ -310,3 +176,5 @@ export default [
     ],
   },
 ];
+
+

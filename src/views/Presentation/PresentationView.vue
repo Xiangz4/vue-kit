@@ -80,7 +80,7 @@ onUnmounted(() => {
     <!-- 计数下方简介以及翻转页表 -->
     <PresentationInformation />
     <!-- 信息页表 -->
-    <PresentationExample :data="data" />
+    <PresentationExample />
     <!-- <PresentationPages /> -->
     <!-- <BuiltByDevelopers /> -->
 
