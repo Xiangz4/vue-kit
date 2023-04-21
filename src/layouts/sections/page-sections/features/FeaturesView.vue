@@ -14,21 +14,23 @@ import { feature1Code } from "./components/codes";
 //nav-pills
 import setNavPills from "@/assets/js/nav-pills";
 
+import TransparentBlogCard from "@/examples/cards/blogCards/TransparentBlogCard.vue";
+
 //hook
 onMounted(() => {
   setNavPills();
 });
 </script>
 <template>
-  <BaseLayout
+  <!-- <BaseLayout
     title="Features"
     :breadcrumb="[
       { label: 'Page Sections', route: '/sections/page-sections/page-headers' },
       { label: 'Features' },
     ]"
-  >
-    <View title="Features 1" :code="feature1Code" id="feature-1">
-      <FeatureOne />
-    </View>
-  </BaseLayout>
+  > -->
+  <View title="Features 1" :code="feature1Code" id="feature-1">
+    <FeatureOne />
+  </View>
+  <!-- </BaseLayout> -->
 </template>
